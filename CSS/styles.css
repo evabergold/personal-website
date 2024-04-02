@@ -1,0 +1,103 @@
+*{
+
+    font-family: sans-serif;
+    color: rgb(73, 75, 76);
+  
+    box-sizing: content-box;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 10px 200px 10px;
+  background-color:rgb(222, 244, 245);
+ 
+}
+
+/*Header style*/
+  .header {
+    background: rgb(250, 247, 247);
+   margin: 0;
+    height: 80px;
+   padding: 10px 10px 10px 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 0px 10px 0px silver;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+
+  
+    
+  }
+
+  .header-image{
+    border-radius: 50%;
+  }
+
+  /*footer styles*/
+  .footer {
+    background: rgb(250, 247, 247);
+    color: rgb(80, 72, 72);
+    height: 150px;
+   margin:0;
+   padding: 5px 5px 5px 20px;
+   position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+   
+
+ 
+}
+    
+
+/*Styling der Listen für Kenntnisse (flexbox)*/
+
+  .tech-stack__list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  
+.tech-stack__list-item {
+  padding: 10px;
+  background-color: #555658;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+/*Linkfarbe beim Hovern ändern*/
+a:hover{
+  color: hotpink;
+}
+
+.goto-top {
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+  border-radius: 50%;
+  background: #2c8d78;
+  color: white;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed; 
+  bottom: 20%;
+  right: 0;
+  z-index: 2
+
+}
